@@ -1,6 +1,6 @@
 %define		_decoration plastiklaptop
 Summary:	Kwin decoration - %{_decoration}
-Summary(pl.UTF-8):Dekoracja kwin - %{_decoration}
+Summary(pl.UTF-8):	Dekoracja kwin - %{_decoration}
 Name:		kde-decoration-%{_decoration}
 Version:	0.6.1
 Release:	1
@@ -18,11 +18,11 @@ Requires:	kdebase-desktop-libs >= 9:3.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-%{_decoration} is a modification to the Plastik kwin window decoration
+plastiklaptop is a modification to the Plastik kwin window decoration
 adding the ability to make the most used titlebar buttons rectangular.
 
 %description -l pl.UTF-8
-%{_decoration} jest modyfikacją dekoracji kwin Plastik pozwalającą
+plastiklaptop jest modyfikacją dekoracji kwin Plastik pozwalającą
 korzystać z prostokątnych przycisków paska tytułowego.
 
 %prep
