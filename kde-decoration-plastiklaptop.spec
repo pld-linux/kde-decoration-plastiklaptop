@@ -12,6 +12,7 @@ URL:		http://www.kde-look.org/content/show.php?content=34616
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdebase-desktop-libs >= 9:3.2.0
+BuildRequires:	kdebase-devel >= 9:3.2.0
 BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	rpmbuild(macros) >= 1.129
 Requires:	kdebase-desktop-libs >= 9:3.2.0
